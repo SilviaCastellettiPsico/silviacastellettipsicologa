@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from "gatsby";
 
 export const useLocalDataSource = () => {
-  return useStaticQuery(graphql`
+  const data = useStaticQuery(graphql`
     query {
       allHeaderJson {
         nodes {
@@ -18,4 +18,6 @@ export const useLocalDataSource = () => {
       }
     }
   `);
+
+  return data.allHeaderJson.nodes[0];
 };

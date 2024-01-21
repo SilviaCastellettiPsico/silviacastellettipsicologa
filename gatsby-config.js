@@ -18,5 +18,11 @@ module.exports = {
         fastHash: true,
       },
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: `${__dirname}/src/content/images/favicon.svg`,
+      },
+    },
   ],
 };

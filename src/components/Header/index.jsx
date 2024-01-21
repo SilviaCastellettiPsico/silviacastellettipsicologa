@@ -4,15 +4,14 @@ import { useLocalDataSource } from "./data";
 import "./style.css";
 
 export function Header() {
-  const response = useLocalDataSource();
-  console.log(response);
-  let data = response.allHeaderJson.nodes[0];
+  const header = useLocalDataSource();
+
   return (
     <Navbar bg="#a51080" expand="lg" collapseOnSelect={true}>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          {data.header.map((nav, index) => {
+          {header.header.map((nav, index) => {
             return (
               <div key={index} style={{ marginRight: "30px" }}>
                 <Nav.Link href={nav.url}>{nav.label}</Nav.Link>
@@ -21,7 +20,7 @@ export function Header() {
           })}
         </Nav>
         <Nav style={{ marginLeft: "auto" }}>
-          {data.ctaButton.map((button, index) => {
+          {header.ctaButton.map((button, index) => {
             return (
               <div key={index}>
                 <Nav.Link

@@ -20,7 +20,9 @@ export function Footer() {
           }
           target="__blank"
         > */}
-        <a>Psicologa Silvia Castelletti</a>
+        <small className="footer-copyright">
+          Copyright &copy; {new Date().getFullYear()} - Silvia Castelletti
+        </small>
       </div>
     </footer>
   );

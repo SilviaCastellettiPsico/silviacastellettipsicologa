@@ -11,6 +11,8 @@
   --page-padding-right: 40px;
   --header-height: 6.25rem;
   --footer-height: 7.5rem;
+  --text-primary-color: #141415;
+  --text-secondary-color: #007991;
 }
 
 * {
@@ -39,30 +41,30 @@ body.fixed {
 }
 
 .btn-primary {
-  background-color: var(--primary-button-background-color);
-  border-color: var(--primary-button-text-border-color);
-  border-radius: var(--button-border-radius);
-  color: var(--primary-button-text-border-color);
+  background-color: #ffffff;
+  border-color: var(--text-primary-color);
+  border-radius: 10px;
+  color: var(--text-primary-color);
   font-weight: 700;
-  font-size: var(--button-font-size);
+  font-size: 20px;
   line-height: 31px;
 }
 .btn-primary:hover {
-  color: var(--primary-button-hover-text-color);
-  background-color: var(--primary-button-hover-background-color);
-  border-color: var(--primary-button-hover-border-color);
+  color: #ffffff;
+  background-color: var(--text-secondary-color);
+  border-color: var(--text-secondary-color);
 }
 .btn-primary:active,
 .btn-primary:visited,
 .btn-primary:focus {
-  color: var(--primary-button-hover-text-color);
-  background-color: var(--primary-button-hover-background-color);
-  border-color: var(--primary-button-hover-border-color);
+  color: #ffffff;
+  background-color: var(--text-secondary-color);
+  border-color: var(--text-secondary-color);
   box-shadow: none;
 }
 
 /* Use btn-secondary only in the PhotoGallery section */
-.btn-secondary {
+/* .btn-secondary {
   background-color: var(--photo-gallery-image-over-background-color);
   border-color: var(--photo-gallery-image-over-text-color);
   border-radius: var(--button-border-radius);
@@ -84,3 +86,4 @@ body.fixed {
   border-color: var(--photo-gallery-image-over-background-color);
   box-shadow: none;
 }
+ */
