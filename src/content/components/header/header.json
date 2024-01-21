@@ -1,0 +1,15 @@
+{
+  "header": [
+    { "label": "Chi sono", "url": "#chisono" },
+    { "label": "Come lavoro", "url": "#comelavoro" },
+    { "label": "Il mio studio", "url": "#ilmiostudio" },
+    { "label": "Contatti", "url": "#contatti" }
+  ],
+  "ctaButton": [
+    {
+      "openNewTab": true,
+      "label": "RSVP",
+      "url": "https://link.wamoo.app/rsvp/simonalorenzo?source=frontend"
+    }
+  ]
+}

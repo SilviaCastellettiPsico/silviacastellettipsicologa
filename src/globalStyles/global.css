@@ -1,0 +1,86 @@
+:root {
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1200px;
+  --border-radius: 1rem;
+  --page-width: 62.5rem;
+  --page-padding-top: 60px;
+  --page-padding-bottom: 60px;
+  --page-padding-left: 40px;
+  --page-padding-right: 40px;
+  --header-height: 6.25rem;
+  --footer-height: 7.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffffff;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.5rem;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+body.fixed {
+  position: fixed;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0px;
+}
+
+.btn-primary {
+  background-color: var(--primary-button-background-color);
+  border-color: var(--primary-button-text-border-color);
+  border-radius: var(--button-border-radius);
+  color: var(--primary-button-text-border-color);
+  font-weight: 700;
+  font-size: var(--button-font-size);
+  line-height: 31px;
+}
+.btn-primary:hover {
+  color: var(--primary-button-hover-text-color);
+  background-color: var(--primary-button-hover-background-color);
+  border-color: var(--primary-button-hover-border-color);
+}
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  color: var(--primary-button-hover-text-color);
+  background-color: var(--primary-button-hover-background-color);
+  border-color: var(--primary-button-hover-border-color);
+  box-shadow: none;
+}
+
+/* Use btn-secondary only in the PhotoGallery section */
+.btn-secondary {
+  background-color: var(--photo-gallery-image-over-background-color);
+  border-color: var(--photo-gallery-image-over-text-color);
+  border-radius: var(--button-border-radius);
+  color: var(--photo-gallery-image-over-text-color);
+  font-weight: 700;
+  font-size: var(--photo-gallery-description-font-size);
+  line-height: 31px;
+}
+.btn-secondary:hover {
+  color: var(--photo-gallery-image-over-background-color);
+  background-color: var(--photo-gallery-image-over-text-color);
+  border-color: var(--photo-gallery-image-over-background-color);
+}
+.btn-secondary:active,
+.btn-secondary:visited,
+.btn-secondary:focus {
+  color: var(--photo-gallery-image-over-background-color);
+  background-color: var(--photo-gallery-image-over-text-color);
+  border-color: var(--photo-gallery-image-over-background-color);
+  box-shadow: none;
+}

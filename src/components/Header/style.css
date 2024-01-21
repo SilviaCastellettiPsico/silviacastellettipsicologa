@@ -1,0 +1,26 @@
+.navbar {
+  margin: auto;
+  max-width: var(--page-width);
+  padding-top: var(--page-padding-top);
+  padding-left: var(--page-padding-left);
+  padding-right: var(--page-padding-right);
+}
+
+.nav-link {
+  color: var(--primary-color);
+  font-weight: var(--header-font-weight);
+  font-size: var(--header-font-size);
+  line-height: 26px;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
+}
+
+.nav-link:focus {
+  color: var(--secondary-color);
+}
+
+.nav-link.active {
+  color: var(--secondary-color) !important;
+}
