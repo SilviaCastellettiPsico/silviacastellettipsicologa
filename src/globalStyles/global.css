@@ -5,12 +5,16 @@
   --breakpoint-lg: 1200px;
   --border-radius: 1rem;
   --page-width: 62.5rem;
-  --page-padding-top: 60px;
-  --page-padding-bottom: 60px;
+  --page-padding-top: 40px;
+  --page-padding-bottom: 40px;
   --page-padding-left: 40px;
   --page-padding-right: 40px;
   --header-height: 6.25rem;
   --footer-height: 7.5rem;
+  --text-color: #000000;
+  --tile-font-weight: 600;
+  --tile-font-size: 40px;
+  --tile-line-height: 40px;
   --text-primary-color: #141415;
   --text-secondary-color: #007991;
 }
@@ -24,7 +28,7 @@ body {
   height: 100%;
   background-color: #ffffffff;
   color: var(--text-color);
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Roboto", Arial, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;

@@ -2,11 +2,19 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
-  },
   plugins: [
     `gatsby-transformer-json`,
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          quality: 100,
+          placeholder: "blurred",
+        },
+      },
+    },
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,0 +1,68 @@
+.whoami-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  max-width: var(--page-width);
+  padding-top: var(--page-padding-top);
+  padding-bottom: var(--page-padding-bottom);
+  padding-left: var(--page-padding-left);
+  padding-right: var(--page-padding-right);
+}
+
+.whoami-title {
+  color: var(--text-primary-color);
+  text-align: left;
+  font-family: var(--font-family);
+  font-weight: var(--tile-font-weight);
+  font-size: var(--tile-font-size);
+  line-height: 100%;
+  margin-bottom: 25px;
+  line-height: var(--tile-line-height);
+}
+
+/* .cta-photo-type1-intro {
+  color: var(--secondary-color);
+  text-align: left;
+  font-family: var(--intro-font-family);
+  font-weight: var(--intro-font-weight);
+  font-size: var(--cta-photo-intro-font-size);
+  line-height: 100%;
+  margin-bottom: var(--cta-photo-intro-margin-bottom);
+} */
+
+.whoami-description {
+  flex: 7;
+  line-height: 160%;
+  margin-bottom: var(--cta-photo-description-margin-bottom);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.whoami-image {
+  flex: 3;
+  max-width: 400px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+@media (max-width: 1200px) {
+  .cta-photo-type1-button {
+    margin-bottom: 30px;
+  }
+
+  .cta-photo-type1-image {
+    max-width: var(--cta-photo-type1-image-max-widht);
+    height: var(--cta-photo-type1-image-height);
+    box-shadow: var(--image-box-shadow);
+    border-radius: var(--image-border-radius);
+  }
+
+  .cta-photo-type1-title {
+    text-align: center;
+  }
+}
