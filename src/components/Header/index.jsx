@@ -7,8 +7,13 @@ export function Header() {
   const header = useLocalDataSource();
 
   return (
-    <header className="header-container">
-      <Navbar bg="#a51080" expand="lg" collapseOnSelect={true}>
+    <header className="header">
+      <Navbar
+        className="header-container"
+        bg="#a51080"
+        expand="lg"
+        collapseOnSelect={true}
+      >
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           id="basic-navbar-nav"

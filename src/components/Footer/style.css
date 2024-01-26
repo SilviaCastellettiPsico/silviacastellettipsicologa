@@ -1,10 +1,10 @@
 .footer {
-  border-top: 1px solid #000000;
+  border-top: 1px solid var(--background-color);
 }
 
 .footer-container {
-  /*   display: flex;
-  flex-direction: row; */
+  display: flex;
+  flex-direction: row;
   align-items: center;
   text-align: center;
   margin: auto;
@@ -13,12 +13,6 @@
   padding-bottom: var(--page-padding-bottom);
   padding-left: var(--page-padding-left);
   padding-right: var(--page-padding-right);
-}
-
-.footer-names {
-  color: var(--text-primary-color);
-  font-size: 16px;
-  font-weight: 600;
 }
 
 .footer-copyright {

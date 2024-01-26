@@ -9,21 +9,23 @@ export function WhoAmI({ sectionId }) {
   const { html } = data.markdownRemark;
 
   return (
-    <div id={sectionId} className="section-container">
-      <div className="section-title">{whoami.title}</div>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <GatsbyImage
-          className="section-image"
-          style={{ marginBottom: "20px" }}
-          image={getImage(whoami.image.src)}
-          alt={whoami.image.alt}
-          loading="eager"
-        />
-        <div
-          className="section-description"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+    <section className="section">
+      <div id={sectionId} className="section-container">
+        <div className="section-title">{whoami.title}</div>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <GatsbyImage
+            className="section-image"
+            style={{ marginBottom: "20px" }}
+            image={getImage(whoami.image.src)}
+            alt={whoami.image.alt}
+            loading="eager"
+          />
+          <div
+            className="section-description"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

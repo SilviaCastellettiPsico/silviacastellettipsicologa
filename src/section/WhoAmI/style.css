@@ -1,8 +1,8 @@
-@media (max-width: 1200px) {
-  /*   .cta-photo-type1-button {
-    margin-bottom: 30px;
-  } */
+.section {
+  background-color: var(--background-color);
+}
 
+@media (max-width: 1200px) {
   .whoami-image {
     max-width: 400px;
     height: 400px;

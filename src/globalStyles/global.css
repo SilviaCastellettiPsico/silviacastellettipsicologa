@@ -17,6 +17,7 @@
   --tile-line-height: 40px;
   --text-primary-color: #141415;
   --text-secondary-color: #007991;
+  --background-color: #e8f8ef;
 }
 
 * {
@@ -44,11 +45,14 @@ body.fixed {
 }
 
 /* sections and pages style */
+.header {
+  background-color: var(--background-color);
+}
 .header-container {
   margin: auto;
   max-width: var(--page-width);
   padding-top: var(--page-padding-top);
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   padding-left: var(--page-padding-left);
   padding-right: var(--page-padding-right);
 }
@@ -81,6 +85,8 @@ body.fixed {
   text-align: left;
   font-size: 16px;
   margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .section-description {
   flex: 6;
