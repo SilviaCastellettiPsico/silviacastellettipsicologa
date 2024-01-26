@@ -43,7 +43,7 @@ export function Work({ sectionId }) {
                     className="col-sm-12, col-md-6 col-lg-4"
                     style={
                       isSmallScreen
-                        ? { marginBottom: "24px" }
+                        ? { marginBottom: "20px" }
                         : { marginBottom: "0px" }
                     }
                     key={index}
@@ -68,14 +68,6 @@ export function Work({ sectionId }) {
               }
             })}
           </div>
-
-          {/*         <GatsbyImage
-          className="work-image"
-          style={{ marginBottom: "20px" }}
-          image={getImage(work.image1.src)}
-          alt={work.image1.alt}
-          loading="eager"
-        /> */}
         </div>
       </div>
     </section>

@@ -1,23 +1,13 @@
 import React from "react";
+import "./style.css";
 
 export function Card({ title, children, footer }) {
   return (
-    <div
-      style={{
-        backgroundColor: "#e8f8ef",
-        /* border: "1px solid #000000", */
-        borderRadius: "16px",
-        padding: "15px",
-        minHeight: "370px",
-        display: "flex",
-        flexDirection: "column",
-      }}
-    >
+    <div className="card-box">
       {title ? (
         <div
           style={{
-            fontSize: "16px",
-            fontWeight: "600",
+            fontWeight: "bold",
             marginBottom: "10px",
             flex: "1",
           }}

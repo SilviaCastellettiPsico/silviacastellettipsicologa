@@ -31,6 +31,7 @@ export function Footer() {
           <a
             href={footer.instagramLogo.linkTo}
             target="_blank"
+            rel="noreferrer"
             style={{ cursor: "pointer" }}
           >
             <GatsbyImage
@@ -42,6 +43,7 @@ export function Footer() {
           <a
             href={footer.linkedinLogo.linkTo}
             target="_blank"
+            rel="noreferrer"
             style={{ cursor: "pointer", marginLeft: "8px" }}
           >
             <GatsbyImage

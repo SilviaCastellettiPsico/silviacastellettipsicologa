@@ -1,5 +1,5 @@
 .footer {
-  border-top: 1px solid var(--background-color);
+  border-top: 1px solid var(--second-background-color);
 }
 
 .footer-container {
@@ -16,10 +16,8 @@
 }
 
 .footer-copyright {
-  color: var(--text-primary-color);
   text-decoration: none;
 }
 
 .footer-copyright:hover {
-  color: var(--text-primary-color);
 }

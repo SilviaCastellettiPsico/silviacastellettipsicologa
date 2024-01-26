@@ -1,0 +1,23 @@
+{
+  "title": "Il mio studio",
+  "intro": "",
+  "image1": {
+    "src": "../../images/studio_1.jpg",
+    "linkTo": "",
+    "alt": "Studio"
+  },
+  "image2": {
+    "src": "../../images/studio_2.jpg",
+    "linkTo": "",
+    "alt": "Studio"
+  },
+  "image3": {
+    "src": "../../images/studio_3.jpg",
+    "linkTo": "",
+    "alt": "Studio"
+  },
+  "ctaButton": {
+    "label": "Indicazioni",
+    "url": "https://maps.app.goo.gl/fTa68xgAC1P8grHRA"
+  }
+}
