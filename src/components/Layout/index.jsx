@@ -2,12 +2,13 @@ import React from "react";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 import "../../globalStyles/global.css";
+import { HeaderGoToHome } from "../HeaderGoToHome";
 
-export function Layout(props) {
+export function Layout({ headerType, children }) {
   return (
     <>
-      <Header />
-      <main>{props.children}</main>
+      <>{headerType === "root" ? <Header /> : <HeaderGoToHome />}</>
+      <main>{children}</main>
       <Footer />
     </>
   );

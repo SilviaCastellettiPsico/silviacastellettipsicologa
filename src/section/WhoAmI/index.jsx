@@ -9,40 +9,21 @@ export function WhoAmI({ sectionId }) {
   const { html } = data.markdownRemark;
 
   return (
-    <div id={sectionId} className="whoami-container">
-      <div className="whoami-title">{whoami.title}</div>
+    <div id={sectionId} className="section-container">
+      <div className="section-title">{whoami.title}</div>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <GatsbyImage
-          className="whoami-image"
+          className="section-image"
           style={{ marginBottom: "20px" }}
           image={getImage(whoami.image.src)}
           alt={whoami.image.alt}
           loading="eager"
         />
         <div
-          className="whoami-description"
+          className="section-description"
           dangerouslySetInnerHTML={{ __html: html }}
         />
       </div>
-
-      {/*       {content.intro ? (
-        <div className="cta-photo-type1-intro">{content.intro}</div>
-      ) : null}
-      {content.title ? (
-        <div className="cta-photo-type1-title">{content.title}</div>
-      ) : null}
-      {content.description ? (
-        <div className="cta-photo-type1-description">{content.description}</div>
-      ) : null} */}
-      {/*       {content.image1.showImage ? (
-        <GatsbyImage
-          className="cta-photo-type1-image"
-          style={{ marginBottom: "20px" }}
-          image={getImage(content.image1.src)}
-          alt={content.image1.alt}
-          loading="eager"
-        />
-      ) : null} */}
     </div>
   );
 }

@@ -1,12 +1,3 @@
-.navbar {
-  margin: auto;
-  max-width: var(--page-width);
-  padding-top: var(--page-padding-top);
-  padding-bottom: 0px;
-  padding-left: var(--page-padding-left);
-  padding-right: var(--page-padding-right);
-}
-
 .nav-link {
   color: var(--text-primary-color);
   font-weight: 600;

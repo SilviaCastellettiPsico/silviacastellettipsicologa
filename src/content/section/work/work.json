@@ -1,0 +1,45 @@
+{
+  "title": "Come lavoro",
+  "intro": "Gestione di problematiche legate ad ansia, depressione, solitudine, difficoltà relazionali di coppia, amicali e genitore-figlio. Gestione del rapporto con il proprio corpo, stress, burnout lavorativo, accompagnamento in momenti di vita complessi e crisi esistenziali.",
+  "cards": [
+    {
+      "image": {
+        "src": "../../images/whoami.jpg",
+        "linkTo": "",
+        "alt": "Silvia Castelletti"
+      },
+      "title": "Percorsi individuali",
+      "description": "In alcune fasi della nostra vita può accadere di sentirsi come bloccati, fermi, vuoti, affaticati, smarriti. Il percorso individuale è un’esperienza che favorisce la riattivazione di un movimento elaborativo, promuovendo nel paziente una ri-narrazione della sua esperienza e dei suoi significati personali.",
+      "ctaButton": {
+        "label": "Scopri di più",
+        "url": "/comelavoro/percorsi-individuali"
+      }
+    },
+    {
+      "image": {
+        "src": "../../images/whoami.jpg",
+        "linkTo": "",
+        "alt": "Silvia Castelletti"
+      },
+      "title": "Percorsi di coppia",
+      "description": "Quando nella coppia si innescano dinamiche conflittuali ricorsive, di difficile gestione e risoluzione, una consulenza di coppia potrebbe favorire la costruzione di un ponte comunicativo utile per favorire un ascolto e una comprensione reciproca e per definire i bisogni personali che all’interno della dimensione di coppia non vengono visti o considerati.",
+      "ctaButton": {
+        "label": "Scopri di più",
+        "url": "/comelavoro/percorsi-di-coppia"
+      }
+    },
+    {
+      "image": {
+        "src": "../../images/whoami.jpg",
+        "linkTo": "",
+        "alt": "Silvia Castelletti"
+      },
+      "title": "Famiglie",
+      "description": "La nascita di un figlio può rendere ancora più ricca e salda l’unione della coppia, ma perchè ciò accada è necessario che la coppia sia disposta ad andare incontro alla ridefinizione degli equilibri e dei ruoli.  E’ inevitabile andare incontro a cambiamenti: in un unico atto nasce un figlio, nasce una madre e nasce un padre, due persone diventano tre, una coppia diventa una famiglia.",
+      "ctaButton": {
+        "label": "Scopri di più",
+        "url": "/comelavoro/famiglie"
+      }
+    }
+  ]
+}

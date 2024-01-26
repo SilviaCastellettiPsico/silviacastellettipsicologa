@@ -1,16 +1,17 @@
-@media (max-width: 1200px) {
-  /*   .cta-photo-type1-button {
-    margin-bottom: 30px;
-  } */
+.post-body {
+  text-align: justify;
+  text-justify: inter-word;
+}
 
-  .whoami-image {
+@media (max-width: 1000px) {
+  .work-image {
     max-width: 400px;
     height: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
   }
 
-  .whoami-title {
+  .work-title {
     text-align: center;
   }
 }

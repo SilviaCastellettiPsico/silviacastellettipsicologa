@@ -26,6 +26,14 @@ module.exports = {
         fastHash: true,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `comelavoro`,
+        path: `${__dirname}/comelavoro`,
+      },
+    },
+    `gatsby-plugin-mdx`,
     `gatsby-transformer-remark`,
     {
       resolve: "gatsby-plugin-manifest",
