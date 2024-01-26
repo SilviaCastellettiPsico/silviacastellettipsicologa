@@ -26,6 +26,7 @@ module.exports = {
         fastHash: true,
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: "gatsby-plugin-manifest",
       options: {

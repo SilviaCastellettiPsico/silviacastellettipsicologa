@@ -34,35 +34,34 @@
 } */
 
 .whoami-description {
-  flex: 7;
+  flex: 6;
   line-height: 160%;
-  margin-bottom: var(--cta-photo-description-margin-bottom);
   text-align: justify;
   text-justify: inter-word;
 }
 
 .whoami-image {
-  flex: 3;
+  flex: 4;
   max-width: 400px;
-  height: 300px;
+  height: 400px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
   margin-right: 40px;
 }
 
 @media (max-width: 1200px) {
-  .cta-photo-type1-button {
+  /*   .cta-photo-type1-button {
     margin-bottom: 30px;
+  } */
+
+  .whoami-image {
+    max-width: 400px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
   }
 
-  .cta-photo-type1-image {
-    max-width: var(--cta-photo-type1-image-max-widht);
-    height: var(--cta-photo-type1-image-height);
-    box-shadow: var(--image-box-shadow);
-    border-radius: var(--image-border-radius);
-  }
-
-  .cta-photo-type1-title {
+  .whoami-title {
     text-align: center;
   }
 }

@@ -1,13 +1,17 @@
 import { graphql, useStaticQuery } from "gatsby";
 
 export const useLocalDataSource = () => {
-  let data = useStaticQuery(graphql`
+  return useStaticQuery(graphql`
     query {
+      markdownRemark(
+        frontmatter: { title: { eq: "SilviaCastellettiIntroduction" } }
+      ) {
+        html
+      }
       allWhoamiJson {
         nodes {
           intro
           title
-          description
           image {
             src {
               childImageSharp {
@@ -21,6 +25,4 @@ export const useLocalDataSource = () => {
       }
     }
   `);
-
-  return data.allWhoamiJson.nodes[0];
 };

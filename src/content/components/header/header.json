@@ -8,8 +8,8 @@
   "ctaButton": [
     {
       "openNewTab": true,
-      "label": "RSVP",
-      "url": "https://link.wamoo.app/rsvp/simonalorenzo?source=frontend"
+      "label": "",
+      "url": ""
     }
   ]
 }

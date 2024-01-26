@@ -2,6 +2,7 @@
   margin: auto;
   max-width: var(--page-width);
   padding-top: var(--page-padding-top);
+  padding-bottom: 0px;
   padding-left: var(--page-padding-left);
   padding-right: var(--page-padding-right);
 }

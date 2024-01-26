@@ -3,11 +3,13 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useLocalDataSource } from "./data";
 import "./style.css";
 
-export function WhoAmI() {
-  const whoami = useLocalDataSource();
+export function WhoAmI({ sectionId }) {
+  const data = useLocalDataSource();
+  const whoami = data.allWhoamiJson.nodes[0];
+  const { html } = data.markdownRemark;
 
   return (
-    <div className="whoami-container">
+    <div id={sectionId} className="whoami-container">
       <div className="whoami-title">{whoami.title}</div>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <GatsbyImage
@@ -17,7 +19,10 @@ export function WhoAmI() {
           alt={whoami.image.alt}
           loading="eager"
         />
-        <div className="whoami-description">{whoami.description}</div>
+        <div
+          className="whoami-description"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
       </div>
 
       {/*       {content.intro ? (
