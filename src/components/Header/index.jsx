@@ -14,6 +14,13 @@ export function Header() {
         expand="lg"
         collapseOnSelect={true}
       >
+        {/*         <Navbar.Brand href="#chisono">
+          <GatsbyImage
+            image={getImage(header.image.src)}
+            alt={header.image.alt}
+            loading="eager"
+          />
+        </Navbar.Brand> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           id="basic-navbar-nav"

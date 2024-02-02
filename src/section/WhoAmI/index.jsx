@@ -12,7 +12,6 @@ export function WhoAmI({ sectionId }) {
     <section className="section">
       <div id={sectionId} className="section-container">
         <div className="section-title">{whoami.title}</div>
-        {/* <div style={{ display: "flex", flexDirection: "row" }}> */}
         <div className="container">
           <div className="row">
             <div className="col-sm-12, col-md-6 col-lg-4">
@@ -24,7 +23,6 @@ export function WhoAmI({ sectionId }) {
                 loading="eager"
               />
             </div>
-
             <div
               className="section-description col-sm-12, col-md-6 col-lg-4"
               dangerouslySetInnerHTML={{ __html: html }}

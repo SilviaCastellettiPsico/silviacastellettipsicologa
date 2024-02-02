@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 export const useLocalDataSource = () => {
   const data = useStaticQuery(graphql`
     query {
-      allHeaderJson {
+      allHeadergotohomeJson {
         nodes {
           image {
             src {
@@ -14,19 +14,10 @@ export const useLocalDataSource = () => {
             alt
             linkTo
           }
-          header {
-            label
-            url
-          }
-          ctaButton {
-            label
-            openNewTab
-            url
-          }
         }
       }
     }
   `);
 
-  return data.allHeaderJson.nodes[0];
+  return data.allHeadergotohomeJson.nodes[0];
 };

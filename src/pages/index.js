@@ -21,4 +21,4 @@ export default function IndexPage() {
   );
 }
 
-export const Head = () => <Seo title="Silvia Castelletti" />;
+export const Head = () => <Seo title="Psicologa Silvia Castelletti" />;

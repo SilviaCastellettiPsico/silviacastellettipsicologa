@@ -21,8 +21,8 @@
   --text-secondary-color: #c8d9d9;
 }
 
-* {
-  box-sizing: border-box;
+a {
+  color: var(--text-primary-color);
 }
 
 body {

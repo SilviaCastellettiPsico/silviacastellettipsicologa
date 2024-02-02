@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocalDataSource } from "./data";
 import { Card } from "../../components/Card";
+import { Link } from "gatsby";
 import useCheckSmallScreen from "../../hook/useCheckSmallScreen";
 import "./style.css";
 
@@ -17,27 +18,7 @@ export function Work({ sectionId }) {
         <div className="container">
           <div className="row">
             {work.cards.map((card, index) => {
-              if (index === work.cards.length - 1) {
-                return (
-                  <div className="col-sm-12, col-md-6 col-lg-4" key={index}>
-                    <Card
-                      title={card.title}
-                      children={card.description}
-                      footer={
-                        <button
-                          type="button"
-                          className="btn btn-primary"
-                          onClick={() =>
-                            window.open(card.ctaButton.url, "__blank")
-                          }
-                        >
-                          {card.ctaButton.label}
-                        </button>
-                      }
-                    />
-                  </div>
-                );
-              } else {
+              if (index < work.cards.length - 1) {
                 return (
                   <div
                     className="col-sm-12, col-md-6 col-lg-4"
@@ -52,15 +33,27 @@ export function Work({ sectionId }) {
                       title={card.title}
                       children={card.description}
                       footer={
-                        <button
-                          type="button"
-                          className="btn btn-primary"
-                          onClick={() =>
-                            window.open(card.ctaButton.url, "__blank")
-                          }
-                        >
-                          {card.ctaButton.label}
-                        </button>
+                        <Link to={card.ctaButton.url} className="gatsby-link ">
+                          <button type="button" className="btn btn-primary">
+                            {card.ctaButton.label}
+                          </button>
+                        </Link>
+                      }
+                    />
+                  </div>
+                );
+              } else {
+                return (
+                  <div className="col-sm-12, col-md-6 col-lg-4" key={index}>
+                    <Card
+                      title={card.title}
+                      children={card.description}
+                      footer={
+                        <Link to={card.ctaButton.url} className="gatsby-link ">
+                          <button type="button" className="btn btn-primary">
+                            {card.ctaButton.label}
+                          </button>
+                        </Link>
                       }
                     />
                   </div>

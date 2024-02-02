@@ -1,4 +1,9 @@
 {
+  "image": {
+    "src": "../../images/favicon.png",
+    "linkTo": "",
+    "alt": "icon"
+  },
   "header": [
     { "label": "Chi sono", "url": "#chisono" },
     { "label": "Come lavoro", "url": "#comelavoro" },

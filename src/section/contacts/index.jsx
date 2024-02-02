@@ -16,14 +16,6 @@ export function Contacts({ sectionId }) {
           className="section-intro"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        {/*         <button
-          style={{ marginRight: "auto", marginBottom: "20px" }}
-          type="button"
-          className="btn btn-primary"
-          onClick={() => window.open(contacts.ctaButton.url, "__blank")}
-        >
-          {contacts.ctaButton.label}
-        </button> */}
       </div>
     </section>
   );
