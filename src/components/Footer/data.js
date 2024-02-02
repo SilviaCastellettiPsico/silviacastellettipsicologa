@@ -6,20 +6,10 @@ export const useLocalDataSource = () => {
       allFooterJson {
         nodes {
           instagramLogo {
-            src {
-              childImageSharp {
-                gatsbyImageData(width: 20)
-              }
-            }
             alt
             linkTo
           }
           linkedinLogo {
-            src {
-              childImageSharp {
-                gatsbyImageData(width: 20)
-              }
-            }
             alt
             linkTo
           }

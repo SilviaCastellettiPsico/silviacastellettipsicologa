@@ -1,6 +1,8 @@
 import React from "react";
 import { useLocalDataSource } from "./data";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import InstagramIcon from "./../../content/images/svg/instagram_logo.svg";
+import LinkedinIcon from "./../../content/images/svg/linkedin_logo.svg";
+
 import "./style.css";
 
 export function Footer() {
@@ -9,21 +11,6 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* <div className="footer-names">{siteConfiguration.wedding.names}</div> */}
-        {/*         <a
-          className="footer-copyright"
-          href={
-            code !== null
-              ? "https://link.wamoo.app/wamoo/" +
-                siteConfiguration.wedding.identifier +
-                "?source=website&code=" +
-                code
-              : "https://link.wamoo.app/wamoo/" +
-                siteConfiguration.wedding.identifier +
-                "?source=website"
-          }
-          target="__blank"
-        > */}
         <small className="footer-copyright">
           Copyright &copy; {new Date().getFullYear()} - Silvia Castelletti
         </small>
@@ -34,22 +21,22 @@ export function Footer() {
             rel="noreferrer"
             style={{ cursor: "pointer" }}
           >
-            <GatsbyImage
-              image={getImage(footer.instagramLogo.src)}
-              alt={footer.instagramLogo.alt}
-              loading="eager"
+            <img
+              src={InstagramIcon}
+              alt="InstagramIcon"
+              style={{ width: "24px" }}
             />
           </a>
           <a
             href={footer.linkedinLogo.linkTo}
             target="_blank"
             rel="noreferrer"
-            style={{ cursor: "pointer", marginLeft: "8px" }}
+            style={{ cursor: "pointer", marginLeft: "6px" }}
           >
-            <GatsbyImage
-              image={getImage(footer.linkedinLogo.src)}
-              alt={footer.linkedinLogo.alt}
-              loading="eager"
+            <img
+              src={LinkedinIcon}
+              alt="LinkedinIcon"
+              style={{ width: "20px" }}
             />
           </a>
         </div>
