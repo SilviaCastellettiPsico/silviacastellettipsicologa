@@ -7,9 +7,12 @@ const PageNotFound = () => {
   return (
     <Page>
       <div className="section-container">
-        <div className="section-title">Page not found</div>
-        <p>Sorry 😔&#44; we couldn t find what you were looking for.</p>
-        <Link to="/">Go home</Link>.
+        <div className="section-title">Pagina non trovata</div>
+        <p>
+          Mi dispiace 😔&#44; non è possibile trovare la pagina che stai
+          cercando.
+        </p>
+        <Link to="/">Torna indietro</Link>.
       </div>
     </Page>
   );
@@ -17,4 +20,4 @@ const PageNotFound = () => {
 
 export default PageNotFound;
 
-export const Head = () => <title>Page not found</title>;
+export const Head = () => <title>Pagina non trovata</title>;
