@@ -1,8 +1,8 @@
 import React from "react";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
-import "../../globalStyles/global.css";
 import { HeaderGoToHome } from "../HeaderGoToHome";
+import "../../globalStyles/global.css";
 
 export function Layout({ headerType, children }) {
   return (

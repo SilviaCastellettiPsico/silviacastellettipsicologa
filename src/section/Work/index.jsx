@@ -1,8 +1,8 @@
 import React from "react";
+import useCheckSmallScreen from "../../hook/useCheckSmallScreen";
 import { useLocalDataSource } from "./data";
 import { Card } from "../../components/Card";
 import { Link } from "gatsby";
-import useCheckSmallScreen from "../../hook/useCheckSmallScreen";
 import "./style.css";
 
 export function Work({ sectionId }) {

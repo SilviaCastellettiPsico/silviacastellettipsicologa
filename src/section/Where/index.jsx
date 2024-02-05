@@ -1,7 +1,7 @@
 import React from "react";
+import useCheckSmallScreen from "../../hook/useCheckSmallScreen";
 import { useLocalDataSource } from "./data";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import useCheckSmallScreen from "../../hook/useCheckSmallScreen";
 import "./style.css";
 
 export function Where({ sectionId }) {
