@@ -5,13 +5,13 @@
 }
 
 .nav-link:hover {
-  color: var(--text-secondary-color);
+  color: var(--text-primary-color);
 }
 
 .nav-link:focus {
-  color: var(--text-secondary-color);
+  color: var(--text-primary-color);
 }
 
 .nav-link.active {
-  color: var(--text-secondary-color) !important;
+  color: var(--text-primary-color) !important;
 }

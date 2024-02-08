@@ -14,7 +14,12 @@ export function Work({ sectionId }) {
     <section>
       <div id={sectionId} className="section-container">
         <div className="section-title">{work.title}</div>
-        <div className="section-intro">{work.intro}</div>
+        <div
+          className="section-description"
+          style={isSmallScreen ? {} : { textAlign: "center" }}
+        >
+          {work.intro}
+        </div>
         <div className="container">
           <div className="row">
             {work.cards.map((card, index) => {
@@ -33,11 +38,12 @@ export function Work({ sectionId }) {
                       title={card.title}
                       children={card.description}
                       footer={
-                        <Link to={card.ctaButton.url} className="gatsby-link ">
-                          <button type="button" className="btn btn-primary">
+                        <>
+                          <Link to={card.ctaButton.url} className="gatsby-link">
                             {card.ctaButton.label}
-                          </button>
-                        </Link>
+                          </Link>
+                          <div className="vl"></div>
+                        </>
                       }
                     />
                   </div>
@@ -49,11 +55,12 @@ export function Work({ sectionId }) {
                       title={card.title}
                       children={card.description}
                       footer={
-                        <Link to={card.ctaButton.url} className="gatsby-link ">
-                          <button type="button" className="btn btn-primary">
+                        <>
+                          <Link to={card.ctaButton.url} className="gatsby-link">
                             {card.ctaButton.label}
-                          </button>
-                        </Link>
+                          </Link>
+                          <div className="vl"></div>
+                        </>
                       }
                     />
                   </div>

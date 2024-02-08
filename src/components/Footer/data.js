@@ -13,6 +13,10 @@ export const useLocalDataSource = () => {
             alt
             linkTo
           }
+          guidaPsicologiLogo {
+            alt
+            linkTo
+          }
         }
       }
     }

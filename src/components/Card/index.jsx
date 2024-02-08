@@ -1,9 +1,20 @@
 import React from "react";
 import "./style.css";
 
-export function Card({ title, children, footer }) {
+export function Card({ header, title, children, footer }) {
   return (
     <div className="card-box">
+      {header ? (
+        <div
+          style={{
+            fontWeight: "bold",
+            marginBottom: "10px",
+            flex: "1",
+          }}
+        >
+          {header}
+        </div>
+      ) : null}
       {title ? (
         <div
           style={{
@@ -30,7 +41,7 @@ export function Card({ title, children, footer }) {
         <div
           style={{
             fontSize: "14px",
-            marginTop: "auto",
+            margin: "auto",
           }}
         >
           {footer}

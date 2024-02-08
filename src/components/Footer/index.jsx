@@ -2,6 +2,7 @@ import React from "react";
 import { useLocalDataSource } from "./data";
 import { InstagramLogo } from "../SvgImage/InstagramLogo";
 import { LinkedinLogo } from "../SvgImage/LinkedinLogo";
+import { GuidaPsicologiLogo } from "../SvgImage/GuidaPsicologiLogo";
 import "./style.css";
 
 export function Footer() {
@@ -10,10 +11,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <small className="footer-copyright">
-          Copyright &copy; {new Date().getFullYear()} - Silvia Castelletti
-        </small>
-        <div style={{ marginLeft: "auto" }}>
+        <div style={{ marginRight: "auto" }}>
           <a
             href={footer.instagramLogo.linkTo}
             target="_blank"
@@ -26,11 +24,22 @@ export function Footer() {
             href={footer.linkedinLogo.linkTo}
             target="_blank"
             rel="noreferrer"
-            style={{ cursor: "pointer", marginLeft: "6px" }}
+            style={{ cursor: "pointer", marginLeft: "9px" }}
           >
             <LinkedinLogo />
           </a>
+          <a
+            href={footer.guidaPsicologiLogo.linkTo}
+            target="_blank"
+            rel="noreferrer"
+            style={{ cursor: "pointer", marginLeft: "6px" }}
+          >
+            <GuidaPsicologiLogo />
+          </a>
         </div>
+        <small className="footer-copyright">
+          Copyright &copy; {new Date().getFullYear()} - Silvia Castelletti
+        </small>
       </div>
     </footer>
   );

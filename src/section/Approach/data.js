@@ -3,14 +3,13 @@ import { graphql, useStaticQuery } from "gatsby";
 export const useLocalDataSource = () => {
   return useStaticQuery(graphql`
     query {
-      markdownRemark(frontmatter: { title: { eq: "chisono-introduction" } }) {
+      markdownRemark(frontmatter: { title: { eq: "approach" } }) {
         html
       }
-      allWhoamiJson {
+      allApproachJson {
         nodes {
-          intro
           title
-          subtitle
+          intro
           image {
             src {
               childImageSharp {
@@ -21,10 +20,6 @@ export const useLocalDataSource = () => {
             linkTo
           }
           ctaButton {
-            label
-            url
-          }
-          ctaButton2 {
             label
             url
           }

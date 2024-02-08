@@ -1,0 +1,13 @@
+{
+  "title": "Il mio approccio",
+  "intro": "",
+  "image": {
+    "src": "../../images/studio_1.jpg",
+    "linkTo": "",
+    "alt": "Studio"
+  },
+  "ctaButton": {
+    "label": "Contatti",
+    "url": "#contatti"
+  }
+}

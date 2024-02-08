@@ -1,8 +1,7 @@
 .card-box {
-  background-color: var(--second-background-color);
   border-radius: 16px;
   padding: 15px;
-  min-height: 370px;
+  min-height: 330px;
   display: flex;
   flex-direction: column;
 }

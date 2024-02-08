@@ -13,55 +13,61 @@ export function Where({ sectionId }) {
   return (
     <section>
       <div id={sectionId} className="section-container">
-        <div className="section-title">{where.title}</div>
-        <div
-          style={{ marginBottom: "0px" }}
-          className="section-intro"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-        <button
-          style={{ marginRight: "auto", marginBottom: "20px" }}
-          type="button"
-          className="btn btn-primary"
-          onClick={() => window.open(where.ctaButton.url, "__blank")}
-        >
-          {where.ctaButton.label}
-        </button>
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12, col-md-6 col-lg-4">
-              <GatsbyImage
-                className="section-image"
-                style={{ marginBottom: "20px" }}
-                image={getImage(where.image1.src)}
-                alt={where.image1.alt}
-                loading="eager"
+        {isSmallScreen ? (
+          <>
+            <div className="section-title">{where.title}</div>
+            <div className="where col-sm-12 col-md-6 col-lg-6">
+              <div
+                className="section-description"
+                dangerouslySetInnerHTML={{ __html: html }}
               />
+              <button
+                style={{ marginRight: "auto", marginBottom: "20px" }}
+                type="button"
+                className="btn btn-primary"
+                onClick={() => window.open(where.ctaButton.url, "__blank")}
+              >
+                {where.ctaButton.label}
+              </button>
             </div>
-            <div className="col-sm-12, col-md-6 col-lg-4">
+            <GatsbyImage
+              className="section-image col-sm-12 col-md-6 col-lg-6"
+              imgClassName="section-image"
+              image={getImage(where.image2.src)}
+              alt={where.image2.alt}
+              loading="eager"
+            />
+          </>
+        ) : (
+          <div className="container">
+            <div className="row">
+              <div className="where col-sm-12 col-md-6 col-lg-6">
+                <div className="section-title">{where.title}</div>
+                <div
+                  className="section-description"
+                  dangerouslySetInnerHTML={{ __html: html }}
+                />
+                <button
+                  style={{
+                    marginRight: "auto",
+                  }}
+                  type="button"
+                  className="btn btn-primary"
+                  onClick={() => window.open(where.ctaButton.url, "__blank")}
+                >
+                  {where.ctaButton.label}
+                </button>
+              </div>
               <GatsbyImage
-                className="section-image"
-                style={{ marginBottom: "20px" }}
+                className="section-image col-sm-12 col-md-6 col-lg-6"
+                imgClassName="section-image"
                 image={getImage(where.image2.src)}
                 alt={where.image2.alt}
                 loading="eager"
               />
             </div>
-            <div className="col-sm-12, col-md-6 col-lg-4">
-              <GatsbyImage
-                className="section-image"
-                style={
-                  isSmallScreen
-                    ? { marginBottom: "0px" }
-                    : { marginBottom: "20px" }
-                }
-                image={getImage(where.image3.src)}
-                alt={where.image3.alt}
-                loading="eager"
-              />
-            </div>
           </div>
-        </div>
+        )}
       </div>
     </section>
   );
