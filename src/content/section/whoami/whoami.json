@@ -8,11 +8,11 @@
     "alt": "Silvia Castelletti"
   },
   "ctaButton": {
-    "label": "Contatti",
-    "url": "#contatti"
-  },
-  "ctaButton2": {
     "label": "Come lavoro",
     "url": "#comelavoro"
+  },
+  "ctaButton2": {
+    "label": "Contatti",
+    "url": "#contatti"
   }
 }

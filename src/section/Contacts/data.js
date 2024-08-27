@@ -10,7 +10,11 @@ export const useLocalDataSource = () => {
         nodes {
           title
           intro
-          ctaButton {
+          ctaButton1 {
+            label
+            phoneNumber
+          }
+          ctaButton2 {
             label
             url
           }

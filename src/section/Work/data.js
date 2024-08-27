@@ -9,11 +9,7 @@ export const useLocalDataSource = () => {
           intro
           cards {
             image {
-              src {
-                childImageSharp {
-                  gatsbyImageData(width: 1000)
-                }
-              }
+              src
               alt
               linkTo
             }

@@ -1,8 +1,12 @@
 {
   "title": "Contatti",
   "intro": "",
-  "ctaButton": {
-    "label": "Mandami una email",
-    "url": "silvia.castelletti@gmail.com"
+  "ctaButton1": {
+    "label": "Chiama",
+    "phoneNumber": "+393492851796"
+  },
+  "ctaButton2": {
+    "label": "E-mail",
+    "url": "silvia.castellett@gmail.com"
   }
 }

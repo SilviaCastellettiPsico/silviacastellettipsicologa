@@ -13,6 +13,10 @@ export function Contacts({ sectionId }) {
     window.location.href = "mailto:" + email;
   }
 
+  function openTelephoneClient(telephoneNumber) {
+    window.location.href = "tel:" + telephoneNumber;
+  }
+
   return (
     <section className="section-contacts">
       <div id={sectionId} className="section-container">
@@ -22,12 +26,22 @@ export function Contacts({ sectionId }) {
           className="section-description"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        {isSmallScreen ? (
+          <button
+            type="button"
+            className="btn btn-info"
+            style={{ marginBottom: "10px" }}
+            onClick={() => openTelephoneClient(contacts.ctaButton1.phoneNumber)}
+          >
+            {contacts.ctaButton1.label}
+          </button>
+        ) : null}
         <button
           type="button"
           className="btn btn-success"
-          onClick={() => openEmailClient(contacts.ctaButton.url)}
+          onClick={() => openEmailClient(contacts.ctaButton2.url)}
         >
-          {contacts.ctaButton.label}
+          {contacts.ctaButton2.label}
         </button>
       </div>
     </section>

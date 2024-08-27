@@ -1,15 +1,15 @@
 {
   "title": "Come lavoro",
-  "intro": "Gestione di problematiche legate ad ansia, depressione, solitudine, difficoltà relazionali di coppia, amicali e genitore-figlio. Gestione del rapporto con il proprio corpo, stress, burnout lavorativo, accompagnamento in momenti di vita complessi e crisi esistenziali.",
+  "intro": "Propongo percorsi di supporto per comprendere e affrontare alcune difficoltà come ansia, depressione, stress, difficoltà relazionali, possibili problematiche nel periodo dell'adolescenza, sostegno alla genitorialità, problemi di coppia e difficoltà ad affrontare un determinato periodo di vita. Allo stesso modo sono disponibile anche per percorsi che portino alla maggiore conoscenza di sé e alla crescita personale.",
   "cards": [
     {
       "image": {
-        "src": "../../images/whoami.jpg",
+        "src": "https://img.icons8.com/pulsar-color/48/bonsai.png",
         "linkTo": "",
-        "alt": "Silvia Castelletti"
+        "alt": "Individui"
       },
       "title": "Percorsi individuali",
-      "description": "In alcune fasi della nostra vita può accadere di sentirsi come bloccati, fermi, vuoti, affaticati, smarriti. Il percorso individuale è un’esperienza che favorisce la riattivazione di un movimento elaborativo, promuovendo nel paziente una ri-narrazione della sua esperienza e dei suoi significati personali.",
+      "description": "Nel corso della vita può accadere di ritrovarsi ad un punto fermo, rimettere in discussione alcuni punti di vista e valori o vivere eventi dolorosi. Si possono esperire ansia, attacchi di panico, stress insicurezza, sintomi depressivi o inadeguatezza. In questi momenti può essere utile prendersi del tempo per sé e riflettere su ciò che non funziona più. Sono momenti che possono essere dolorosi e faticosi ma che possono anche nascondere germogli per piccoli ma profondi cambiamenti. In questi momenti può essere utile risignificare alcuni eventi, esperienze o aprire nuove possibilità, nuovi modi di stare, più liberi e consapevoli, in situazioni già conosciute.",
       "ctaButton": {
         "label": "Scopri di più",
         "url": "/comelavoro/percorsi-individuali"
@@ -17,12 +17,12 @@
     },
     {
       "image": {
-        "src": "../../images/whoami.jpg",
+        "src": "https://img.icons8.com/pulsar-color/48/forest.png",
         "linkTo": "",
-        "alt": "Silvia Castelletti"
+        "alt": "Coppie"
       },
       "title": "Percorsi di coppia",
-      "description": "Quando nella coppia si innescano dinamiche conflittuali ricorsive, di difficile gestione e risoluzione, una consulenza di coppia potrebbe favorire la costruzione di un ponte comunicativo utile per favorire un ascolto e una comprensione reciproca e per definire i bisogni personali che all’interno della dimensione di coppia non vengono visti o considerati.",
+      "description": "Il percorso terapeutico rivolto alle coppie si rivolge a molteplici relazioni di coppia: genitoriale, genitori-figli, relazione di coppia. Può accadere che la coppia incontri un momento di incomprensione, sfiducia, conflitto o tensione per svariati motivi. Il percorso di coppia è utile nel ricostruire un dialogo attento e significativo tra i due individui, ponendo il focus sui pensieri, emozioni e vissuti di ciascuno.",
       "ctaButton": {
         "label": "Scopri di più",
         "url": "/comelavoro/percorsi-di-coppia"
@@ -30,12 +30,12 @@
     },
     {
       "image": {
-        "src": "../../images/whoami.jpg",
+        "src": "https://img.icons8.com/pulsar-color/48/forage.png",
         "linkTo": "",
-        "alt": "Silvia Castelletti"
+        "alt": "Famiglie"
       },
       "title": "Famiglie",
-      "description": "La nascita di un figlio può rendere ancora più ricca e salda l’unione della coppia, ma perchè ciò accada è necessario che la coppia sia disposta ad andare incontro alla ridefinizione degli equilibri e dei ruoli.  E’ inevitabile andare incontro a cambiamenti: in un unico atto nasce un figlio, nasce una madre e nasce un padre, due persone diventano tre, una coppia diventa una famiglia.",
+      "description": "La famiglia è un gruppo di persone all’interno del quale ci sono significati condivisi, dinamiche che si ripetono e ruoli più o meno espliciti. Può accadere che uno o più membri del gruppo esprima disagio, sofferenza, difficoltà, timore, insoddisfazione verso schemi ripetuti e chieda al sistema famigliare attenzione, cura e ascolto nel modificare alcune dinamiche. Il ruolo dello psicologo in questa terapia è utile nel nominare alcune dinamiche, talvolta poco chiare, nascoste o dolorose, esplicitarle e comprendere se ci sono possibilità differenti.",
       "ctaButton": {
         "label": "Scopri di più",
         "url": "/comelavoro/famiglie"

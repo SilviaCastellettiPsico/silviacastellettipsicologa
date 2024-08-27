@@ -5,12 +5,12 @@ import "./style.css";
 
 export function HeaderGoToHome() {
   return (
-    <header className="header">
+    <>
       <div className="header-container" style={{ paddingBottom: "15px" }}>
         <Link to="/#comelavoro">
           <BackArrow />
         </Link>
       </div>
-    </header>
+    </>
   );
 }

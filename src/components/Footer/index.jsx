@@ -9,38 +9,42 @@ export function Footer() {
   const footer = useLocalDataSource();
 
   return (
-    <footer className="footer">
-      <div className="footer-container">
-        <div style={{ marginRight: "auto" }}>
-          <a
-            href={footer.instagramLogo.linkTo}
-            target="_blank"
-            rel="noreferrer"
-            style={{ cursor: "pointer" }}
-          >
-            <InstagramLogo />
-          </a>
-          <a
-            href={footer.linkedinLogo.linkTo}
-            target="_blank"
-            rel="noreferrer"
-            style={{ cursor: "pointer", marginLeft: "9px" }}
-          >
-            <LinkedinLogo />
-          </a>
-          <a
-            href={footer.guidaPsicologiLogo.linkTo}
-            target="_blank"
-            rel="noreferrer"
-            style={{ cursor: "pointer", marginLeft: "6px" }}
-          >
-            <GuidaPsicologiLogo />
-          </a>
-        </div>
-        <small className="footer-copyright">
-          Copyright &copy; {new Date().getFullYear()} - Silvia Castelletti
-        </small>
+    <div className="footer-container">
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "flex-start",
+          alignItems: "center",
+        }}
+      >
+        <a
+          href={footer.instagramLogo.linkTo}
+          target="_blank"
+          rel="noreferrer"
+          style={{ cursor: "pointer" }}
+        >
+          <InstagramLogo />
+        </a>
+        <a
+          href={footer.linkedinLogo.linkTo}
+          target="_blank"
+          rel="noreferrer"
+          style={{ cursor: "pointer", marginLeft: "9px" }}
+        >
+          <LinkedinLogo />
+        </a>
+        <a
+          href={footer.guidaPsicologiLogo.linkTo}
+          target="_blank"
+          rel="noreferrer"
+          style={{ cursor: "pointer", marginLeft: "6px" }}
+        >
+          <GuidaPsicologiLogo />
+        </a>
       </div>
-    </footer>
+      <div className="footer-copyright">
+        &copy; {new Date().getFullYear()} - Silvia Castelletti
+      </div>
+    </div>
   );
 }

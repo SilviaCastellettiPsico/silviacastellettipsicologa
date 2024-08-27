@@ -7,7 +7,7 @@ export function Header() {
   const header = useLocalDataSource();
 
   return (
-    <header className="header">
+    <>
       <Navbar
         className="header-container"
         bg="#a51080"
@@ -30,6 +30,6 @@ export function Header() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </header>
+    </>
   );
 }

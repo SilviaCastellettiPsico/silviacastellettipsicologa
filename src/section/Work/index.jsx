@@ -2,7 +2,6 @@ import React from "react";
 import useCheckSmallScreen from "../../hook/useCheckSmallScreen";
 import { useLocalDataSource } from "./data";
 import { Card } from "../../components/Card";
-import { Link } from "gatsby";
 import "./style.css";
 
 export function Work({ sectionId }) {
@@ -35,16 +34,17 @@ export function Work({ sectionId }) {
                     key={index}
                   >
                     <Card
+                      image={card.image}
                       title={card.title}
                       children={card.description}
-                      footer={
+                      /*                       footer={
                         <>
                           <Link to={card.ctaButton.url} className="gatsby-link">
                             {card.ctaButton.label}
                           </Link>
                           <div className="vl"></div>
                         </>
-                      }
+                      } */
                     />
                   </div>
                 );
@@ -52,16 +52,17 @@ export function Work({ sectionId }) {
                 return (
                   <div className="col-sm-12, col-md-6 col-lg-4" key={index}>
                     <Card
+                      image={card.image}
                       title={card.title}
                       children={card.description}
-                      footer={
+                      /*                       footer={
                         <>
                           <Link to={card.ctaButton.url} className="gatsby-link">
                             {card.ctaButton.label}
                           </Link>
                           <div className="vl"></div>
                         </>
-                      }
+                      } */
                     />
                   </div>
                 );

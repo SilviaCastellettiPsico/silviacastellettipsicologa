@@ -28,13 +28,17 @@ export function WhoAmI({ sectionId }) {
                   marginBottom: "20px",
                 }}
               >
-                <Link to={whoami.ctaButton.url} style={{ marginRight: "20px" }}>
-                  <button type="button" className="btn btn-info">
+                <Link to={whoami.ctaButton.url}>
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    style={{ marginBottom: "10px" }}
+                  >
                     {whoami.ctaButton.label}
                   </button>
                 </Link>
                 <Link to={whoami.ctaButton2.url}>
-                  <button type="button" className="btn btn-secondary">
+                  <button type="button" className="btn btn-info">
                     {whoami.ctaButton2.label}
                   </button>
                 </Link>
@@ -67,12 +71,12 @@ export function WhoAmI({ sectionId }) {
                     to={whoami.ctaButton.url}
                     style={{ marginRight: "20px" }}
                   >
-                    <button type="button" className="btn btn-info">
+                    <button type="button" className="btn btn-secondary">
                       {whoami.ctaButton.label}
                     </button>
                   </Link>
                   <Link to={whoami.ctaButton2.url}>
-                    <button type="button" className="btn btn-secondary">
+                    <button type="button" className="btn btn-info">
                       {whoami.ctaButton2.label}
                     </button>
                   </Link>

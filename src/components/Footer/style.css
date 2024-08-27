@@ -1,22 +1,14 @@
-.footer {
-  background-color: var(--text-primary-color);
-  color: #ffffff;
-  height: 100%;
-}
-
 .footer-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  text-align: center;
+  height: 100%;
   margin: auto;
   max-width: var(--page-width);
-  padding-top: var(--page-padding-top);
-  padding-bottom: var(--page-padding-bottom);
-  padding-left: var(--page-padding-left);
-  padding-right: var(--page-padding-right);
 }
 
 .footer-copyright {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
   text-decoration: none;
 }
