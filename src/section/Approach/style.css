@@ -1,0 +1,13 @@
+.approach {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-left: 45px;
+  padding-right: 0px;
+}
+
+@media (max-width: 600px) {
+  .approach {
+    padding-left: 0px;
+  }
+}

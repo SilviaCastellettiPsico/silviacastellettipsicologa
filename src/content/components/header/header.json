@@ -1,0 +1,21 @@
+{
+  "image": {
+    "src": "../../images/favicon.png",
+    "linkTo": "",
+    "alt": "icon"
+  },
+  "header": [
+    { "label": "Chi sono", "url": "#chisono" },
+    { "label": "Come lavoro", "url": "#comelavoro" },
+    { "label": "Il mio approccio", "url": "#ilmioapproccio" },
+    { "label": "Il mio studio", "url": "#ilmiostudio" },
+    { "label": "Contatti", "url": "#contatti" }
+  ],
+  "ctaButton": [
+    {
+      "openNewTab": true,
+      "label": "",
+      "url": ""
+    }
+  ]
+}

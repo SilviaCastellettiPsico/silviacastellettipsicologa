@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: var(--second-background-color);
+}
+
+.app-content {
+  flex: 1;
+}
+
+.app-footer {
+  background-color: var(--text-primary-color);
+  color: #ffffff;
+  height: 100px;
+  padding-left: var(--page-padding-left);
+  padding-right: var(--page-padding-right);
+}

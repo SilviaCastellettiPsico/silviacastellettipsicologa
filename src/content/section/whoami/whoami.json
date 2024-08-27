@@ -1,0 +1,18 @@
+{
+  "title": "Dott.ssa Silvia Castelletti",
+  "subtitle": "psicologa clinica",
+  "intro": "",
+  "image": {
+    "src": "../../images/whoami.jpg",
+    "linkTo": "",
+    "alt": "Silvia Castelletti"
+  },
+  "ctaButton": {
+    "label": "Come lavoro",
+    "url": "#comelavoro"
+  },
+  "ctaButton2": {
+    "label": "Contatti",
+    "url": "#contatti"
+  }
+}

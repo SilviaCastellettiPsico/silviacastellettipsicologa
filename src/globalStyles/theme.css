@@ -1,0 +1,138 @@
+body[theme="wamoo"] {
+  --primary-color: #141415;
+  --secondary-color: #007991;
+  --tertiary-color: #141415;
+  --quaternary-color: #141514;
+  --text-color: #000000;
+  --background-color: #ffffff;
+  --button-border-radius: 0px;
+  --image-border-radius: 10px;
+  --image-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --primary-button-background-color: #ffffff;
+  --primary-button-text-border-color: #141415;
+  --primary-button-hover-background-color: #d0cdff;
+  --primary-button-hover-border-color: #d0cdff;
+  --primary-button-hover-text-color: #ffffff;
+  /* Font */
+  --base-font: "Roboto", Arial, sans-serif;
+  --button-font-size: 20px;
+  --title-font-weight: 600;
+  --intro-font-weight: 400;
+  --description-font-weight: 400;
+  --title-font-family: "Roboto", Arial, sans-serif;
+  --intro-font-family: "Roboto", Arial, sans-serif;
+  --description-font-family: "Roboto", Arial, sans-serif;
+  /*** Modal ***/
+  --modal-title-font-weight: 400;
+  --modal-title-font-size: 30px;
+  --modal-body-description-font-size: 16px;
+  /*** Header ***/
+  --header-font-size: 16px;
+  --header-font-weight: 600;
+  --dropdown-hover-text-border-color: #ffffff;
+  --dropdown-hover-background-color: #d0cdff;
+  --dropdown-active-text-border-color: #d0cdff;
+  --dropdown-active-background-color: #141415;
+  /*** Footer ***/
+  --footer-font-size: 16px;
+  --footer-font-weight: 600;
+  --footer-border-top: 2px solid #000000;
+  /*** Hero section ***/
+  --hero-title-weight: 600;
+  --hero-title-font-size: 100px;
+  --hero-title-small-screen-font-size: 80px;
+  --hero-intro-font-size: 24px;
+  --hero-description-font-size: 24px;
+  --hero-title-margin-bottom: 20px;
+  --hero-intro-margin-bottom: 20px;
+  --hero-description-margin-bottom: 40px;
+  --hero-title-line-height: 80px;
+  /* HeroType1 component */
+  --hero-type1-image-max-widht: 400px;
+  --hero-type1-image-height: 400px;
+  --hero-type1-small-screen-image-max-widht: auto;
+  --hero-type1-small-screen-image-height: auto;
+  /*** Schedule section ***/
+  --schedule-section-title-weight: 600;
+  --schedule-section-title-font-size: 56px;
+  --schedule-title-weight: 600;
+  --schedule-title-font-size: 32px;
+  --schedule-intro-font-size: 16px;
+  --schedule-description-font-size: 16px;
+  --schedule-date-font-size: 24px;
+  --schedule-container-height: 100%;
+  --schedule-title-margin-bottom: 20px;
+  --schedule-intro-margin-bottom: 20px;
+  --schedule-description-margin-bottom: 40px;
+  --schedule-title-line-height: 32px;
+  /* ScheduleType1 component */
+  --schedule-type1-image-max-widht: 400px;
+  --schedule-type1-image-height: 300px;
+  /*** Rsvp section ***/
+  --rsvp-title-weight: 600;
+  --rsvp-title-font-size: 50px;
+  --rsvp-intro-font-size: 16px;
+  --rsvp-description-font-size: 16px;
+  --rsvp-title-margin-bottom: 20px;
+  --rsvp-intro-margin-bottom: 20px;
+  --rsvp-description-margin-bottom: 20px;
+  --rsvp-title-line-height: 50px;
+  /*** Cta section ***/
+  --cta-title-weight: 600;
+  --cta-title-font-size: 50px;
+  --cta-intro-font-size: 16px;
+  --cta-description-font-size: 16px;
+  --cta-title-margin-bottom: 20px;
+  --cta-intro-margin-bottom: 20px;
+  --cta-description-margin-bottom: 20px;
+  --cta-title-line-height: 50px;
+  /*** CtaPhoto section ***/
+  --cta-photo-title-weight: 600;
+  --cta-photo-title-font-size: 50px;
+  --cta-photo-intro-font-size: 16px;
+  --cta-photo-description-font-size: 16px;
+  --cta-photo-title-margin-bottom: 20px;
+  --cta-photo-intro-margin-bottom: 20px;
+  --cta-photo-description-margin-bottom: 30px;
+  --cta-photo-title-line-height: 50px;
+  /* CtaPhotoType1 component */
+  --cta-photo-type1-container-height: 400px;
+  --cta-photo-type1-image-max-widht: 400px;
+  --cta-photo-type1-image-height: 300px;
+  /* CtaPhotoType2 component */
+  --cta-photo-type2-container-height: 400px;
+  --cta-photo-type2-image-max-widht: 400px;
+  --cta-photo-type2-image-height: 400px;
+  /* CtaPhotoType3 component */
+  --cta-photo-type3-container-height: 400px;
+  --cta-photo-type3-image-max-widht: 400px;
+  --cta-photo-type3-image-height: 400px;
+  /*** PhotoGallery section ***/
+  --photo-gallery-title-weight: 600;
+  --photo-gallery-title-font-size: 50px;
+  --photo-gallery-intro-font-size: 16px;
+  --photo-gallery-description-font-size: 16px;
+  --photo-gallery-title-margin-bottom: 20px;
+  --photo-gallery-intro-margin-bottom: 20px;
+  --photo-gallery-description-margin-bottom: 30px;
+  --photo-gallery-title-line-height: 50px;
+  /* PhotoGalleryType1 component */
+  --photo-gallery-type1-title-font-family: "Roboto", Arial, sans-serif;
+  --photo-gallery-type1-title-weight: 600;
+  --photo-gallery-type1-button-font-size: 15px;
+  --photo-gallery-type1-image-hover-text-color: #141415;
+  --photo-gallery-type1-image-hover-background-color: #d0cdff;
+  --photo-gallery-type1-image-hover-description-font-size: 14px;
+  --photo-gallery-type1-image-hover-description-line-height: 15px;
+  --photo-gallery-type1-image-hover-description-min-height: 20px;
+  /*** Cards section ***/
+  --cards-title-weight: 600;
+  --cards-title-font-size: 32px;
+  --cards-description-font-size: 16px;
+  /* CardsType1 component */
+  --cards-type1-image-max-widht: 300px;
+  --cards-type1-image-height: 300px;
+  --cards-type1-card-max-widht: 350px;
+  --cards-type1-card-text-align: center;
+  --cards-type1-card-flex-align: center;
+}

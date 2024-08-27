@@ -1,0 +1,17 @@
+.section-whoami {
+  background-color: var(--second-background-color);
+}
+
+.whoami {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding-left: 0px;
+  padding-right: 45px;
+}
+
+@media (max-width: 600px) {
+  .whoami {
+    padding-right: 0px;
+  }
+}
