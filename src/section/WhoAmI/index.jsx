@@ -62,7 +62,7 @@ export function WhoAmI({ sectionId }) {
                   {whoami.subtitle}
                 </div>
                 <div
-                  className="section-description "
+                  className="section-description"
                   dangerouslySetInnerHTML={{ __html: html }}
                 />
 
