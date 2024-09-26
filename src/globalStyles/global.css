@@ -62,13 +62,13 @@ body {
   text-justify: inter-word;
 }
 .section-description {
-  flex: 5;
+  /*  flex: 5; */
   margin-bottom: 20px;
   text-align: justify;
   text-justify: inter-word;
 }
 .section-image {
-  flex: 5;
+  /*   flex: 5; */
   max-width: 500px;
   height: 500px;
   border-radius: 10px;
