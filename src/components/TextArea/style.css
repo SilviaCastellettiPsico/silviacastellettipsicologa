@@ -1,0 +1,31 @@
+.textarea-container {
+  margin-bottom: 14px;
+  padding: 1px;
+  width: 100%;
+  text-align: left;
+}
+
+.textarea-label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.textarea-box {
+  border: 1px solid #ebf2fa;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  resize: none;
+}
+
+.textarea-box::placeholder {
+  color: #b5b5bd;
+}
+
+.textarea-box:focus {
+  border: 1px solid #f4ebfb;
+  outline-offset: 0px;
+  outline: none;
+  box-shadow: 0 0 0 1px #f4ebfb;
+}
