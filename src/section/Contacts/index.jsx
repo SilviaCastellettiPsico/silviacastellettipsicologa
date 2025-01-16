@@ -25,7 +25,9 @@ export function Contacts({ sectionId }) {
   };
 
   const postData = async () => {
-    const apiBaseUrl = "http://localhost:7065/api/send-email";
+    const apiBaseUrl =
+      "https://silviacastellettipsicologaemailsender.azurewebsites.net/api/send-email";
+    // "http://localhost:7065/api/send-email";
     const promise = toast.promise(
       fetch(apiBaseUrl, {
         method: "POST",
