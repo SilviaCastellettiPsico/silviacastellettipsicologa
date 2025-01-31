@@ -8,7 +8,7 @@ export const useLocalDataSource = () => {
           image {
             src {
               childImageSharp {
-                gatsbyImageData(width: 30)
+                gatsbyImageData(width: 1000)
               }
             }
             alt

@@ -105,7 +105,6 @@ export function Contacts({ sectionId }) {
       <div id={sectionId} className="section-container">
         <div className="section-title">{contacts.title}</div>
         <div
-          style={isSmallScreen ? {} : { textAlign: "center" }}
           className="section-description"
           dangerouslySetInnerHTML={{ __html: html }}
         />
@@ -113,7 +112,7 @@ export function Contacts({ sectionId }) {
           <button
             type="button"
             className="btn btn-info"
-            style={{ marginBottom: "20px" }}
+            style={{ marginBottom: "30px" }}
             onClick={() => openTelephoneClient(contacts.ctaButton1.phoneNumber)}
           >
             {contacts.ctaButton1.label}

@@ -2,4 +2,8 @@
 title: where-my-study
 ---
 
-Collaboro con il centro **[Il Dialogo](https://www.centroildialogo.it/)** in Piazzale Goisis, 1, Bergamo. Ricevo anche a **Clusone (BG)** e sono disponibile per colloqui online.
+Ricevo a Bergamo in Piazzale Lodovico Goisis, 1. Qui collaboro con il centro clinico “Il Dialogo”. Clicca **[QUI](https://www.centroildialogo.it/)** per scoprire di più.
+
+Ricevo anche a Clusone in Viale Europa, 46.
+
+Sono disponibile per colloqui online.

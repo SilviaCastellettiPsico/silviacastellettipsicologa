@@ -37,7 +37,11 @@ export const useLocalDataSource = () => {
             alt
             linkTo
           }
-          ctaButton {
+          ctaButton1 {
+            label
+            url
+          }
+          ctaButton2 {
             label
             url
           }

@@ -2,13 +2,11 @@
   --background-color: #ffffff;
   --second-background-color: #f1fcfc;
   --third-background-color: #f2f2f7;
-  --page-width: 65rem;
-  --page-padding-top: 50px;
-  --page-padding-bottom: 50px;
+  --page-width: 72rem;
+  --page-padding-top: 35px;
+  --page-padding-bottom: 35px;
   --page-padding-left: 0px;
   --page-padding-right: 0px;
-  /* --header-height: 6.25rem; */
-  /* --footer-height: 7.5rem; */
   --tile-font-weight: 600;
   --tile-font-size: 40px;
   --tile-line-height: 40px;
@@ -70,6 +68,17 @@ body {
   max-width: 500px;
   height: 500px;
   border-radius: 10px;
+  flex: 1;
+}
+.navbar-icon {
+  width: 100px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 @media (max-width: 1200px) {
@@ -82,6 +91,9 @@ body {
   }
   .section-image {
     width: 100%;
+  }
+  .navbar-icon {
+    width: 60px;
   }
 }
 
@@ -97,9 +109,9 @@ body {
   font-size: 16px;
 }
 .btn-primary:hover {
-  color: var(--text-primary-color);
-  background-color: #ffffff;
-  border-color: var(--text-primary-color);
+  color: #ffffff;
+  background-color: var(--text-primary-color);
+  border-color: #ffffff;
 }
 :not(.btn-check) + .btn:active,
 .btn-primary:first-child:active,
@@ -122,9 +134,9 @@ body {
   font-size: 16px;
 }
 .btn-secondary:hover {
-  color: var(--text-primary-color);
-  background-color: var(--second-background-color);
-  border-color: var(--text-primary-color);
+  color: var(--second-background-color);
+  background-color: var(--text-primary-color);
+  border-color: var(--second-background-color);
 }
 .btn-secondary:first-child:active,
 .btn-secondary:visited,
@@ -138,7 +150,7 @@ body {
 .btn-info {
   width: 150px;
   padding: 10px;
-  color: #ffffff;
+  color: var(--second-background-color);
   background-color: var(--text-primary-color);
   border-color: var(--text-primary-color);
   border-radius: 10px;
@@ -146,8 +158,8 @@ body {
   font-size: 16px;
 }
 .btn-info:hover {
-  color: #ffffff;
-  background-color: var(--text-primary-color);
+  color: var(--text-primary-color);
+  background-color: var(--second-background-color);
   border-color: var(--text-primary-color);
 }
 .btn-info:first-child:active,
@@ -170,9 +182,9 @@ body {
   font-size: 16px;
 }
 .btn-success:hover {
-  color: var(--text-primary-color);
-  background-color: var(--third-background-color);
-  border-color: var(--text-primary-color);
+  color: var(--third-background-color);
+  background-color: var(--text-primary-color);
+  border-color: var(--third-background-color);
 }
 :not(.btn-check) + .btn:active,
 .btn-success:first-child:active,

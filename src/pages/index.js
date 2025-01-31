@@ -20,7 +20,7 @@ export default function IndexPage() {
       <WhoAmI sectionId="chisono" />
       <Work sectionId="comelavoro" />
       <Approach sectionId="ilmioapproccio" />
-      <Where sectionId="ilmiostudio" />
+      <Where sectionId="dovericevo" />
       <Contacts sectionId="contatti" />
       <ToastContainer
         theme="colored"

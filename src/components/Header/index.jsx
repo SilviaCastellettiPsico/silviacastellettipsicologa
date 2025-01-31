@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { useLocalDataSource } from "./data";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import "./style.css";
 
 export function Header() {
@@ -14,6 +15,12 @@ export function Header() {
         expand="lg"
         collapseOnSelect={true}
       >
+        <GatsbyImage
+          className="navbar-icon"
+          image={getImage(header.image.src)}
+          alt={header.image.alt}
+          loading="eager"
+        />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
           id="basic-navbar-nav"
