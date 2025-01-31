@@ -1,6 +1,6 @@
 {
   "image": {
-    "src": "../../images/favicon.png",
+    "src": "../../images/logo.png",
     "linkTo": "",
     "alt": "icon"
   },
@@ -8,7 +8,7 @@
     { "label": "Chi sono", "url": "#chisono" },
     { "label": "Come lavoro", "url": "#comelavoro" },
     { "label": "Il mio approccio", "url": "#ilmioapproccio" },
-    { "label": "Il mio studio", "url": "#ilmiostudio" },
+    { "label": "Dove ricevo", "url": "#dovericevo" },
     { "label": "Contatti", "url": "#contatti" }
   ],
   "ctaButton": [
