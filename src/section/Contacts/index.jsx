@@ -40,11 +40,16 @@ export function Contacts({ sectionId }) {
           Phone: phone,
           Body: body,
         }),
-      }).then((response) => {
+      }).then(async (response) => {
         if (!response.ok) {
           throw new Error("Error");
         }
-        return response.json();
+        try {
+          const data = await response.json();
+          return data;
+        } catch (err) {
+          return {};
+        }
       }),
       {
         pending: "Invio in corso...",
