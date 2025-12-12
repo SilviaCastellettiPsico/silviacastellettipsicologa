@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Page } from "../components/Page";
 import { Seo } from "../components/Seo";
+import { StructuredData } from "../components/StructuredData";
 import { WhoAmI } from "../section/WhoAmI";
 import { Work } from "../section/Work";
 import { Where } from "../section/Where";
@@ -17,6 +18,7 @@ import "react-toastify/dist/ReactToastify.css";
 export default function IndexPage() {
   return (
     <Page headerType="root">
+      <StructuredData />
       <WhoAmI sectionId="chisono" />
       <Work sectionId="comelavoro" />
       <Approach sectionId="ilmioapproccio" />

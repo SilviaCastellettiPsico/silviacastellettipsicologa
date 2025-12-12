@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://psicologacastellettisilvia.it/sitemap-index.xml
+
+# Blocca le pagine di sviluppo
+Disallow: /dev-404-page/
+Disallow: /404/
+Disallow: /404.html

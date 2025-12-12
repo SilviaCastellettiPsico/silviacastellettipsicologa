@@ -2,7 +2,7 @@
 title: chisono-introduction
 ---
 
-Sono Silvia Castelletti, psicologa clinica e psicoterapeuta sistemico-dialogica in formazione.
+Sono Silvia Castelletti, psicologa clinica e psicoterapeuta sistemico-dialogica.
 
 Sono una persona molto curiosa, mi appassiona ascoltare le molteplici **modalità** e **possibilità** con cui ogni individuo costruisce il proprio percorso di vita. Per queste mie caratteristiche, mi sono avvicinata alla psicologia, che mi ha permesso di avere strumenti e basi teoriche solide su cui fondare il mio lavoro con le persone.
 
